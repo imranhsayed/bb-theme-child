@@ -1,0 +1,12 @@
+.knoxweb-header-logo-left {
+  .fl-icon-group {
+    @media screen and (min-width: $small) {
+      text-align: right;
+    }
+  }
+  .fl-menu {
+    @media screen and (min-width: $small) {
+      text-align: right;
+    }
+  }
+}

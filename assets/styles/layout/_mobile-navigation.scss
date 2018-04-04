@@ -1,0 +1,16 @@
+.primary-navigation {
+  button.fl-menu-mobile-toggle {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-width: 100%;
+    padding: 1em 0 !important;
+    text-transform: uppercase;
+    .fl-menu-mobile-toggle-label {
+      font-size: 25px;
+    }
+    &.fl-active,
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.6);
+      color: #333333;
+    }
+  }
+}

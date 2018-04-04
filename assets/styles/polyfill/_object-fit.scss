@@ -1,0 +1,12 @@
+.object-fit-fix {
+  img {
+    object-fit: cover;
+    object-position: center;
+  }
+  &.transparent_child {
+    background-size: cover !important;
+    img {
+      opacity: 0;
+    }
+  }
+}
